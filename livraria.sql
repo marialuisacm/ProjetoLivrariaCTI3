@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17-Set-2022 às 01:33
--- Versão do servidor: 10.4.20-MariaDB
--- versão do PHP: 8.0.9
+-- Tempo de geração: 28-Set-2022 às 03:20
+-- Versão do servidor: 10.4.24-MariaDB
+-- versão do PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `livraria`
+-- Banco de dados: `livrariamalu`
 --
 
 -- --------------------------------------------------------
@@ -42,6 +42,17 @@ CREATE TABLE `generos` (
   `codigogenero` int(11) DEFAULT NULL,
   `nome_do_genero` varchar(120) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `generos`
+--
+
+INSERT INTO `generos` (`codigogenero`, `nome_do_genero`) VALUES
+(1, 'Biografias'),
+(2, 'Literatura'),
+(3, 'Autoajuda'),
+(4, 'Didático'),
+(5, 'Quadrinhos');
 
 -- --------------------------------------------------------
 
