@@ -32,6 +32,15 @@ CREATE TABLE `editora` (
   `nome_da_editora` varchar(120) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `editora`
+--
+
+INSERT INTO `editora` (`codigo_editora`, `nome_da_editora`) VALUES
+(2, 'Leia bem'),
+(3, 'Leiba bem');
+COMMIT;
+
 -- --------------------------------------------------------
 
 --
