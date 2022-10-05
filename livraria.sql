@@ -37,8 +37,9 @@ CREATE TABLE `editora` (
 --
 
 INSERT INTO `editora` (`codigo_editora`, `nome_da_editora`) VALUES
-(2, 'Leia bem'),
-(3, 'Leiba bem');
+(1, Viena)
+(2, 'Livros bom');
+(3, 'Leia bem'),
 COMMIT;
 
 -- --------------------------------------------------------
